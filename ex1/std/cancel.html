@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<TITLE>
+Cancel: Minimal Specification for Event Management System at University 
+</TITLE>
+<style type="text/css">
+.quote {margin: 1em 1em 1em 1em;}
+</style>
+</HEAD>
+
+<BODY>
+
+Events list for admin
+<div>
+<form action="cancel.html" method="post">
+<table border>
+
+<tr>
+ <th>Name</th> <th>Date</th> <th>Room</th> <th>Description</th> <th>status</th> <th>cancel?</th>
+</tr>
+
+<tr>
+ <td>Lecture by Prof. X</td> <td>2015/10/10</td> <td>Room2</td> <td>In this lecture .... </td> 
+ <td></td> <td><input type="checkbox" name="cancel[]" value="e1"></td>
+</tr>
+
+<tr>
+ <td>Lecture by Prof. Y</td> <td>2015/10/15</td> <td>Room1</td> <td>In this lecture .... </td> 
+ <td></td> <td><input type="checkbox" name="cancel[]" value="e2"></td>
+</tr>
+
+<tr>
+ <td>Lecture by Prof. Z</td> <td>2015/10/22</td> <td>Room2</td> <td>In this lecture .... </td> 
+ <td>canceled</td> <td></td>
+</tr>
+
+<tr>
+ <td>Open Campus</td> <td>2015/11/10</td> <td>Room3</td> <td>We introdue our university to ...</td> 
+ <td></td> <td><input type="checkbox" name="cancel[]" value="e4"></td>
+</tr>
+
+<tr>
+ <td>Lecture by Prof. A</td> <td>2015/11/22</td> <td>Room1</td> <td>In this lecture .... </td> 
+ <td></td> <td><input type="checkbox" name="cancel[]" value="e5"></td>
+</tr>
+
+<tr>
+ <td>Lecture by Prof. B</td> <td>2015/12/10</td> <td>Room2</td> <td>In this lecture .... </td> 
+ <td></td> <td><input type="checkbox" name="cancel[]" value="e6"></td>
+</tr>
+
+</table>
+ Cancel selected events <input type="submit" value="OK">
+</form>
+</div>
+<p>
+<a href="admin.html">Back to your home</a>
+<p>
+Date: 2015/8/12
+</BODY>
